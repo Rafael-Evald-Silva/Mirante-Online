@@ -59,14 +59,14 @@ nav{
 .interface-site {
     height: 100%;
     width: 100%;
-    max-width: 1000px;
+    max-width: 1100px;
     display: flex;
     background-color: #fff;
     justify-content: space-between;
     margin: auto;
     margin-bottom: auto;
     box-shadow: 0 5px 5px rgba(0,0,0, .4);
-    padding: 10px;
+    padding: 15px;
 }
 
 
@@ -83,7 +83,7 @@ nav{
     display: flex;
     width: 100%;
     height: 100%;
-    max-width: 800px;
+    max-width: 730px;
     max-height: 300px;
     margin-top: 10px;
     border-radius: 25px;
@@ -105,9 +105,17 @@ nav{
 /*Titulo noticas recentes*/
 .noticia-principal h1 {
     margin: 0px;;
-    font-size: 25px;
-    margin-top: 50px;
+    font-size: 30px;
+    margin-top: 55px;
     margin-bottom: -30px;
+    box-shadow: 0 5px 5px rgba(0,0,0, .2);
+    border-radius: 25px;
+    height: 40px;
+    padding: 5px;
+}
+
+.noticia-principal a {
+    text-decoration: none;
 }
 
 #not-destaq{
@@ -188,7 +196,7 @@ nav{
 
 /*Aside do site*/
 .propagandas {
-    display: flex;
+    display: inline-block;
     width: 30%;
     margin: auto;
     max-width: 350px;
@@ -197,6 +205,53 @@ nav{
 }
 
 /*Configurar os cards de anucios*/
+.noticia-principal aside {
+    width: 100%;
+    max-width: 300px;
+    height: 700px;
+}
+
+.cards-propagandas-container {
+    width: 330px;
+    height: 200px;
+    position: relative;
+    background-color: #DCDAE1;
+    justify-content: space-evenly;
+    border-radius: 25px;
+    margin-bottom: 38px;
+    box-shadow: 0 5px 5px rgba(0,0,0, .4);
+    justify-content: space-between;
+    display: inline-block;
+    min-height: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: block;
+
+}
+
+/* Sobre o site e Midia Sociais*/
+.sobre-social-midias {
+    width: 1130px;
+    height: 300px;
+    margin: auto;
+    box-shadow: 0 5px 5px rgba(0,0,0, .4);
+
+
+    /*
+        height: 100%;
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: auto;
+    box-shadow: 0 5px 5px rgba(0,0,0, .4);
+    padding: 15px;
+    
+    
+    */
+}
 
 
 /*Rodape do site*/
