@@ -2,7 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
-
+/*-------------------------------------------------------------------------------*/
 /*Css da nav-bar*/
 nav{
     display: flex;
@@ -50,11 +50,28 @@ nav{
     justify-content: center;
     justify-items: center;
 }
-
+/*----------------------------------------------------------------------------------------*/
 /*Esloga do site*/
+.esloga-site {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.esloga-site #nomeSite {
+    margin-left: 180px;
+    margin-top: 20px;
+}
 
+.esloga-site div {
+    margin-left: auto;
+}
 
+.esloga-site div #eslaSite {
+    margin-left: 179px;
+}
+/*----------------------------------------------------------------------------------------*/
 /*Corpo do site*/
 .interface-site {
     height: 100%;
@@ -65,11 +82,11 @@ nav{
     justify-content: space-between;
     margin: auto;
     margin-bottom: auto;
-    box-shadow: 0 5px 5px rgba(0,0,0, .4);
+  /*  box-shadow: 0 5px 5px rgba(0,0,0, .4); */
     padding: 15px;
 }
 
-
+/*---------------------------------------------------------------------------------------*/
 /*Os blocos de noticia que ficara na tela principal - OK*/
 .noticia-principal{
     width: 100%;
@@ -77,7 +94,7 @@ nav{
     margin-right: auto;
     padding: 0 20px;
 }
-
+/*----------------------------------------------------------------------------------------*/
 /*Carrossel do site*/
 .container-carousel {
     display: flex;
@@ -101,14 +118,14 @@ nav{
 
 }
 
-
+/*-----------------------------------------------------------------------------------------*/
 /*Titulo noticas recentes*/
 .noticia-principal h1 {
     margin: 0px;;
     font-size: 30px;
     margin-top: 55px;
     margin-bottom: -30px;
-    box-shadow: 0 5px 5px rgba(0,0,0, .2);
+  /*  box-shadow: 0 5px 5px rgba(0,0,0, .2); */
     border-radius: 25px;
     height: 40px;
     padding: 5px;
@@ -121,13 +138,13 @@ nav{
 #not-destaq{
     margin-top: 20px;
 }
-
+/*---------------------------------------------------------------------------------------*/
 /*Container card New*/
 .container-card-news{
     display: inline-flex;
     margin-left: -15px;
 }
-
+/*--------------------------------------------------------------------------------------*/
 /*Card das noticias*/
 .col {
     display: inline-block;
@@ -193,7 +210,7 @@ nav{
     word-break: break-all;
     font-size: 14px;
 }
-
+/*---------------------------------------------------------------------------------------*/
 /*Aside do site*/
 .propagandas {
     display: inline-block;
@@ -204,6 +221,7 @@ nav{
     margin-left: -10px;
 }
 
+/*---------------------------------------------------------------------------------------*/
 /*Configurar os cards de anucios*/
 .noticia-principal aside {
     width: 100%;
@@ -226,31 +244,62 @@ nav{
     padding-left: 5px;
     padding-right: 5px;
     display: block;
-
 }
+/*-----------------------------------------------------------------------------------*/
+.cards-propagandas-container div {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Sobre o site e Midia Sociais*/
 .sobre-social-midias {
     width: 1130px;
-    height: 300px;
+    height: 160px;
     margin: auto;
-    box-shadow: 0 5px 5px rgba(0,0,0, .4);
-
-
-    /*
-        height: 100%;
-    width: 100%;
-    max-width: 1100px;
+  /*  box-shadow: 0 5px 5px rgba(0,0,0, .4); */
     display: flex;
-    background-color: #fff;
+}
+
+
+/*Sobre site*/
+.site-sobre {
+    width: 100%;
+    max-width: 800px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.midias-sociais-site {
+    width: 100%;
+    max-width: 330px;
+    height: 100%;
+    max-height: 150px;
+    padding: 10px;
+}
+
+.midias-sociais-site div {
+    display: flex;
+    padding: 2px;
     justify-content: space-between;
-    margin: auto;
-    margin-bottom: auto;
-    box-shadow: 0 5px 5px rgba(0,0,0, .4);
-    padding: 15px;
-    
-    
-    */
+    justify-content: center;
+}
+
+.midias-sociais-site a {
+    background-color: #DCDAE1;;
+    padding: 8px;
+    border-radius: 25px;
+   /* Box-shadow: 0 5px 5px rgba(0,0,0, .4); */
+}
+
+.midias-sociais-site h1 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.sobre-social-midias h1 {
+    font-size: 18px;
 }
 
 
